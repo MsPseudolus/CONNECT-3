@@ -1,0 +1,499 @@
+/***************************************************
+STUFF THAT WORKS WITH NEW LAYOUT AND WITH JQUERY INCLUDE
+***************************************************/
+.kuratur hr {
+margin: 0 0 25px 0;
+}
+.kuratur .entry-content h1 {
+margin: 0px 0px 0px 0px !important;
+}
+.kBadge {
+background:url(http://kuratur.com/images/Powered_by.png) no-repeat scroll 0 0 transparent;
+float:right;
+height: 35px; 
+width: 103px;
+}
+.dotted_line {
+margin-bottom: 25px;
+}
+.spacer img{
+	margin: 3px !important;
+}
+
+.theme_leftPanel, .theme_midPanel, .theme_rightPanel {
+
+}
+.layout_1 .theme_rightPanel {
+margin-top: 10px;
+}
+.layout_1 .theme_midPanel {
+margin-top:15px;
+}
+
+.layout_1 .theme_leftPanel {
+margin-top: 15px;
+}
+
+.layout_3 .theme_midPanel {
+padding-right: 0px;
+margin-top:5px;
+}
+
+.L2 .theme_leftPanel {
+width: 30%;
+margin-top: 35px;
+}
+
+.L2 .news_rightPanel_L2 {
+width: 65%;
+margin-top: 30px;
+display:inline-block;
+}
+
+.L4 .theme_leftPanel {
+width: 30%;
+}
+
+.L4 .news_rightPanel_L2 {
+width: 65%;
+margin-top: -25px;
+}
+
+.content_date{	 	
+ font-style: italic;
+ font-size: 85%;
+ display: block;
+ float: left;
+ width: 100%;
+ /*margin: 10px 0;*/
+}	 	
+.content_title{	
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.news_list {
+display: inline-block;
+width: 100%;  
+}
+.news_list_txt .content_title {
+	line-height: 1.5;
+}	
+.news_list_txt .content, .news_list_txt p{
+    margin: .05em !important;
+    float: left;
+    width:100%;
+}
+
+.news_list_img {
+text-align: center;
+}
+
+.news_list_img img {
+margin-top: 15px;
+margin-bottom: 15px;
+box-shadow: none;
+max-height: 400px;
+width: auto;
+height: auto;
+}
+
+.readMoreDiv a {
+text-decoration: none;
+}
+
+.readMoreDiv a:hover {
+text-decoration: underline;
+}
+
+.kuratur .dotted_line img {
+border-bottom: 1px dotted lightgray;
+margin-bottom: 5px;
+padding-top: 5px;
+width: 100%;
+box-shadow: none;
+height: 1px;
+}
+
+.FBProfImg img {
+box-shadow: none;
+}
+
+.FBProfileName {
+display: inline-block;
+width: 100%;
+}
+
+.FBProfileName a {
+text-decoration: none;
+color: #999;
+}
+
+.FBProfileName a:hover {
+text-decoration: underline;
+}
+
+.FBshareInfo.twShare {
+width: 92%;
+float: none;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.shareByOuterDiv.twShare {
+width: 92%;
+margin-left: auto;
+margin-right: auto;
+float: none;
+}
+
+.shareByContainer.twShare {
+width: 92%;
+float: none;
+margin-left: auto;
+margin-right: auto;
+}
+
+.shareByOuterDiv table {
+	border: 0px !important;
+} 	
+.sharedByTable {
+  line-height:1.4 !important;
+  margin-bottom: 0px !important;
+  border-bottom: 0px !important;
+  border: 0px !important;
+}
+
+.sharedByTable table {
+  line-height:1.4 !important;
+  margin-bottom: 0px !important;
+  border-bottom: 0px !important;
+}
+
+.sharedByTable table p {
+  line-height:1.4 !important;
+  margin: 0px !important;
+}
+
+.sharedByTable table td {
+	border-top: 0px !important;
+}
+
+.sharedByTable .twImgTD {
+	width: 55px;
+	min-width: 55px;
+	padding: 0px;
+	border: 0px;
+}
+
+.sharedByTable .twImgTD img {
+	width:45px;
+	height:45px;
+	margin: 5px;
+	box-shadow: none !important;
+}
+
+.tweetProfTextLink {
+text-align: left;
+word-break: break-word;
+vertical-align: baseline;
+}
+
+.tweetText {
+border: 0px;
+}
+
+.tweetText a {
+text-decoration: none;
+color: #999;
+}
+
+.twFolBut {
+	width: 60px;
+	min-width: 60px;
+	padding-top: 5px !important;
+	padding-right: 5px !important;
+	border: 0px;
+	text-align:right;
+}
+
+.shareInfo {
+ font-size: 75%;
+ display: inline-block;
+ width: 100%;
+ line-height: 1.45;
+ margin-top: .75em;
+}
+
+.shareInfo table {
+	margin-bottom: 0px !important;
+	border-bottom: 0px !important;
+}
+
+.shareInfo table td {
+	border: 0px !important;
+	line-height: 1.4;
+}
+
+.shareInfo table td p {
+	margin-bottom: 0px !important;
+}
+
+.textOnlyTweetText{
+	font-size:14px;
+	margin-left:5px;
+	padding:3px;
+	font-style:normal;
+	color: #231F20;
+}
+
+.twDate {
+	color:#999999;
+	font-style:normal;
+	font-size:12px;
+	display: inline-block;
+	margin: 5% 0 1% 2%;
+	vertical-align:top;
+}
+.rtBy {
+	color: #999999;
+	font-style:normal;
+	font-size:12px;
+	display: inline-block;
+	margin: 5% 0 1% 2%;
+	max-width: 74%;
+	vertical-align:top;
+}
+
+.twButtonBar {
+	padding: 10px 0;
+	margin: 0px !important;
+}
+.twButtonBar a {
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+img[src="http://kuratur.com/img/reply.png"] {
+  box-shadow:none !important;
+}
+
+img[src="http://kuratur.com/img/retweet.png"] {
+  box-shadow:none !important;
+}
+
+img[src="http://kuratur.com/img/favorite.png"] {
+  box-shadow:none !important;
+}
+
+td {
+   display: table-cell;
+   vertical-align: top;
+}
+
+.postDiv {
+width: 100%;
+}
+
+.readMoreDiv {
+	float: right;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.readmore{
+    line-height: .05;
+    text-align: right;
+    margin-bottom: -2.5em;
+}
+
+.shareByBoxTitle {
+font-style: italic;
+font-size: 12px;
+margin-bottom: 2px;
+color: #999;
+margin-top: 15px;
+}
+
+.sharedByBox {
+	border: 1px solid #DFDFDF;
+}
+
+.newsbox td {
+    border-top: none;
+}
+
+/*narrow column styles for WP*/
+	
+	.kNarrow .news_leftPanel_L2 {
+	 display: inline-block;
+	 width: 100%;
+	}
+	.kNarrow .news_rightPanel_L2 {
+	 display: inline-block;
+	 width: 100%;;
+	}
+	
+	 .kNarrow .theme_midPanel {
+	 display: inline-block;
+	 width: 100%;
+	 margin-top: -1px;
+	 }
+	 
+	 .kNarrow .theme_leftPanel{
+	 display: inline-block;	
+	 width: 100%;
+	 }
+	 
+	 .kNarrow .theme_rightPanel {
+	 display: inline-block;
+	 width: 100%;
+	 margin-top: 10%;
+	 }
+	 
+	 .kNarrow .L4 .theme_rightPanel {
+		display: inline-block;
+		width: 100%;
+		margin-top: 10%;
+		}
+		
+	.kNarrow .L4 .news_leftPanel_L2 {
+		display: inline-block;
+		width: 100%;
+		}
+
+	.kNarrow .news_rightPanel_L2 {
+	display: inline-block;
+	width: 100%;
+	}
+	 
+	 .kNarrow .content {
+		width: 100%;
+		display: inline-block;
+	  }
+	  
+	  .kNarrow .twFolBut {
+		width: 70px;
+		min-width: 70px;
+		}	
+		
+		.kNarrow .news_list_img {
+		display: block;
+		text-align: center;
+		}
+		
+	  .kNarrow .news_list_img img {
+		  max-height: 400px;
+		  width: auto;
+		  }
+
+@media only screen and (max-width: 899px) {
+
+	.news_list_img img {
+		max-height: 400px;
+		width: auto;
+		}
+
+	 .theme_leftPanel{
+	 display: inline-block;	
+	 width: 100%;
+	 }
+	 .theme_midPanel {
+	 display: inline-block;
+	 width: 100%;
+	 margin-top: -1px;
+	 }
+	 .theme_rightPanel {
+	 display: inline-block;
+	 width: 100%;
+	 margin-top: 10%;
+	 }
+	 
+	.news_leftPanel_L2 {
+	 display: inline-block;
+	 width: 100%;
+	}
+	.news_rightPanel_L2 {
+	 display: inline-block;
+	 width: 100%;;
+	}
+	
+	.L2 .theme_leftPanel {
+	display:inline-block;
+	width: 100%;
+	}
+	
+	.L2 .news_rightPanel_L2 {
+	display:inline-block;
+	width: 100%;
+	}
+	
+	.L4 .theme_leftPanel {
+	display:inline-block;
+	width: 100%;
+	}
+
+	.L4 .news_rightPanel_L2 {
+	display: inline-block;
+	width: 100%;
+	}
+	
+	.content_title {
+	padding-top: 10px;
+	padding-bottom: 0;
+	}
+	
+	.readMoreDiv {
+	width: 100%;
+	}
+	
+	.dotted_line img {
+	padding-top: 55px;
+	}
+	
+}
+@media only screen and (min-width: 900px) {
+	 .theme_leftPanel{
+	 float: left;
+	 display: inline;
+	 width: 25%;
+	 padding-right: 5%;
+	 }
+	
+	.L4 .theme_rightPanel {
+	width: 30%;
+	float: right;
+	margin-top: 9px;
+	}
+	
+	.L4 .news_leftPanel_L2 {
+	width: 65%;
+	float: left;
+	}
+	
+	 .theme_midPanel {
+	 float: left;
+	 display: inline;
+	 width: 40%;
+	 padding-right: 5%;
+	 margin-top: -25px;
+	 }
+	 .theme_rightPanel {
+	 float: right;
+	 display: inline;
+	 width: 25%;
+	 }
+	 
+	 .layout_3 .theme_leftPanel.L3 {
+		margin-top: 10px;
+		}
+
+	 .layout_3 .theme_leftPanel {
+	 	margin-top: 2px;
+	 	}
+	 
+}
+.textwidget .kuratur .theme_leftPanel, .textwidget .kuratur .theme_rightPanel, .textwidget .kuratur .theme_midPanel {
+display: block;
+width: 100%;
+}
