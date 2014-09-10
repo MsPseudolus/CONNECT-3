@@ -257,7 +257,7 @@ function kuratur_install() {
 }
 
 /**********************************************************
-REMOVE THE OLD DATABASE STUFF AND CONVERT TO CPT
+CHECK FOR AND REMOVE THE OLD DATABASE STUFF AND CONVERT TO CPT
 **********************************************************/
 add_action( 'init', 'kur_cleanup_v1', 5 );
 
@@ -266,11 +266,11 @@ function kur_cleanup_v1() {
 	$kur_legacy = get_option( 'kur_legacy' );
 	//if the option doesn't exist or if it's set to 'true' then do the job
 	if ( !$kur_legacy || $kur_legacy === 'true' ) {
-	
+		
+		//do the big stuff
+		
 		//add an option that will tell us not to do this after doing it once
 		add_option( 'kur_legacy', '' , '' , 'no' );
-		
-		//do all the things	
 		
 	}
 	//update our option to 'false' so we never do this again
